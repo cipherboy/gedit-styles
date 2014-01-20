@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+ Copyright (C) 2010-2011 Alexander Scheel
+ Author: Alexander Scheel
+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Public License as 
+ published by the Free Software Foundation; either
+ version 2 of the License, or (at your option) any later version.
+
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Public License for more details.
+
+ You should have received a copy of the GNU Public License
+ along with this library; if not, write to the
+ Free Software Foundation, Inc., 59 Temple Place - Suite 330,
+ Boston, MA 02111-1307, USA.
+
+-->
+
+<style-scheme id="chrome" _name="Chrome" version="1.0">
+
+  <author>Alexander Scheel</author>
+  <_description>A light chrome based color scheme.</_description>
+
+  <color name="chameleon1"                  value="#306000"/>
+  <color name="chameleon2"                  value="#73d216"/>
+  <color name="chameleon3"                  value="#4e9a06"/>
+  <color name="skyblue1"                    value="#729fcf"/>
+  <color name="skyblue2"                    value="#3465a4"/>
+  <color name="skyblue3"                    value="#204a87"/>
+  <color name="scarletred2"                 value="#cc0000"/>
+  <color name="aluminium1"                  value="#eeeeec"/>
+  <color name="aluminium2"                  value="#dddddb"/>
+  <color name="aluminium3"                  value="#ccccca"/>
+  <color name="aluminium4"                  value="#bfbfbf"/>
+  <color name="aluminium5"                  value="#888a85"/>
+  <color name="aluminium6"                  value="#555753"/>
+  <color name="aluminium7"                  value="#2e3436"/>
+
+  <!-- Global Settings -->
+  <style name="text"                        foreground="aluminium7" background="aluminium2"/>
+  <style name="selection"                   foreground="aluminium2" background="aluminium5"/>
+  <style name="cursor"                      foreground="aluminium7" bold="true" />
+  <style name="current-line"                background="aluminium4"/>
+  <style name="line-numbers"                foreground="aluminium6" background="aluminium1"/>
+  <style name="draw-spaces"                 foreground="aluminium5"/>
+
+  <!-- Bracket Matching -->
+  <style name="bracket-match"               foreground="aluminium7" background="aluminium3" bold="true"/>
+  <style name="bracket-mismatch"            foreground="aluminium7" background="scarletred2" bold="true"/>
+
+  <!-- Right Margin -->
+  <style name="right-margin"                foreground="aluminium7" background="aluminium2"/>
+  
+  <!-- Search Matching -->
+  <style name="search-match"                foreground="aluminium1" background="skyblue1"/>
+
+  <!-- Comments -->
+  <style name="def:comment"                 foreground="aluminium7" bold="true"/>
+  <style name="def:shebang"                 foreground="aluminium7" bold="true" italic="true" />
+  <style name="def:doc-comment-element"     italic="true"/>
+
+  <!-- Constants -->
+  <style name="def:constant"                foreground="skyblue2"/>
+  <style name="def:string"                  foreground="skyblue2"/>
+  <style name="def:special-char"            foreground="skyblue3" bold="true"/>
+  <style name="def:special-constant"        foreground="skyblue3"/>
+  <style name="def:floating-point"          foreground="skyblue3"/>
+
+  <!-- Identifiers -->
+  <style name="def:identifier"              foreground="skyblue1"/>
+
+  <!-- Statements -->
+  <style name="def:statement"               foreground="skyblue2" bold="true"/>
+
+  <!-- Types -->
+  <style name="def:type"                    foreground="chameleon1" bold="true"/> 
+
+  <!-- Others -->
+  <style name="def:preprocessor"            foreground="skyblue3"/>
+  <style name="def:error"                   foreground="aluminium1" background="skyblue3" bold="true"/>
+  <style name="def:note"                    background="skyblue3" foreground="aluminium5" bold="true"/>
+  <style name="def:underlined"              italic="true" underline="true"/>
+
+  <!-- Language specific -->
+  <style name="diff:added-line"             foreground="chameleon2"/>
+  <style name="diff:removed-line"           foreground="skyblue1"/>
+  <style name="diff:changed-line"           foreground="skyblue3"/>
+  <style name="diff:diff-file"              foreground="chameleon1" bold="true"/> 
+  <style name="diff:location"               foreground="chameleon1"/> 
+  <style name="diff:special-case"           foreground="chameleon3" bold="true"/>
+
+</style-scheme>
